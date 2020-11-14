@@ -1,0 +1,263 @@
+h1,h2,h3,h4,h5,h6{margin: 0px;padding: 0px; font-weight: normal;}
+.fixed{position: fixed;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.sticky{position: sticky;}
+.flex{display: flex;}
+.aic{align-items: center;}
+.bl{display: block;}
+.bil{display: inline-block;}
+.s15{
+    font-weight: 15px;
+}
+.b{
+    font-weight: bold;
+}
+.noul{text-decoration: none;}
+.noulh:hover{text-decoration: underline;}
+.fl{float: left;}
+.header {
+    background-color: #f8f7f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0px;
+    z-index: 9;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 2px 2px #dadada;
+}
+.mt{
+    margin-top: -290px;
+    margin-right: 70%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.olxlogo{
+   margin: 10px 5px 10px 10px;
+   margin-left: 25px;
+}
+.location:hover{
+
+    border-color: rgb(7, 247, 255);
+} 
+.inpt{
+    border: hidden;
+}
+/* .inpt:hover{
+    border: solid 0px rgb(7, 247, 255);
+ 
+} */
+.location{
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.btnarrow{
+    background-color: white; 
+    border: none;
+
+}
+.inpt2{
+    border: hidden;
+    width: 600px;
+    height: 45px ;
+    border-color: #f8f7f7;
+}
+.log{
+    padding-left: 40px;
+    font-size: medium;
+    color: darkslategray;
+    font-weight: bold;
+}
+.btn-sell{
+    padding-left: 40px;
+    border-radius: 20px;
+    background-color:  #f8f7f7;
+    border: solid 0px  #f8f7f7;
+    width: auto;
+    border-color: #f8f7f7;
+}
+.btn-sell:hover{
+    border: solid 0px #f8f7f7;
+}
+.hnav{
+    background-color: #fff;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    z-index: 8;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 2px 2px rgb(218 218 218/36%);
+    padding: 0px 18%;
+}
+button{
+    cursor: pointer;
+}
+.font{
+    font-family: 'Open sans','sans-serif';
+    font-weight: normal;
+}
+.s18{
+    font-size: 18px;
+}
+.s24{
+    font-size: 24px;
+}
+.hnav .view-cates {
+    border: 0px;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0);
+}
+.hnav .view-cates .arrow{
+    border: 0px;
+    padding: 3px 10px;
+    background: rgba(0,0,0,0);
+    margin-left: 10px;
+}
+.hnav .view-cates:hover{
+    background-color: #fcfcfc;
+}
+.hnav a {
+    padding: 5px;
+    margin-right: 2px;
+    color: black;
+}
+.imagehead{
+    margin-top: 100px;
+}
+.home-page{
+    background-color: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin: 35px;
+    height: 370px;;
+
+}
+.featured{
+    background-color: #ffc525;
+    width: 65px;
+    height: 17px;
+    margin-top: 2px;
+    position: absolute;
+}
+.yellow{
+    background-color: #ffc525;
+    height: 111px;
+    width: 6px;
+    padding-left: 0px;
+    margin-left: -7px;
+    position: absolute;
+    margin-top: 15px;
+}
+.s11{
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.img-c{
+    justify-content: center
+}
+.Mobile-card{
+    background-color: rgb(255, 255, 255);
+    width: 289px;
+    height: 280px;
+    padding: 7px 7px 7px 7px; 
+    margin: 15px 15px 15px 15px;
+    margin-top: 10px; 
+    margin-left: 35px;
+    border: solid 1px #d0c9c9;
+    box-shadow: 3px 0 0 #ececec;
+    border-radius: 5px;
+}
+.Add-Item{
+    margin-top: 55px;
+    padding-top: 15px;
+    margin-left: -30px; 
+ 
+}
+.ml-cards{
+     margin-left: 52px;
+     margin-bottom: 15px;
+}
+.ml{
+    margin-left: 5px;
+}
+.ml-img{
+    margin-left: 17px;
+    padding-bottom: 10px;
+}
+.s12{
+    font-size: 12px;
+}
+.s14{
+    font-size: 14px;
+    font-weight: normal;
+}
+.s10{
+    font-size: 10px;
+}
+.fl1{
+    
+    float: right;
+}
+
+.footer{
+    padding: 15px;
+} 
+.footer-two{
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 200px;
+    list-style: none;
+    justify-content: space-around;
+    padding: 25px;
+    color: black;
+}
+.head1{
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 14px;
+    padding: 10px;
+}
+.col{
+    color: rgb(104, 101, 101);
+  
+}
+.footer3{
+    background-color: #103c3e;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+}
+.countries{
+
+}
+.clr{
+    background-color: rgb(247, 247, 247);
+    width: 500px;
+}
+.pdng1{
+    padding: 12px;
+}
+.pdng{
+    padding: 10px;
+}
+.pt{
+    margin-top: 10px;
+}
+.links{
+    color: white;
+    padding-left: 5px;    
+}
+.colr{
+    font-size: 12px;
+    color:white;
+    padding-left: 650px;
+}
